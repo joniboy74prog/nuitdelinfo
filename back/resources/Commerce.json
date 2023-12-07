@@ -1,17 +1,70 @@
 {
-  "nomcat": "Commerce",
+  "nomcatCategorie": "Commerce",
   "questions": [
+    {"question": "Quel est l'impact environnemental des sacs réutilisables par rapport aux sacs plastiques jetables?",
+      "options": [
+        {
+        "text": "Les sacs réutilisables ont généralement une empreinte carbone initiale plus élevée que les sacs plastiques jetables en raison de leur production, mais ils deviennent plus écologiques à long terme grâce à leur réutilisation fréquente.",
+        "img": "https://cdn.futura-sciences.com/sources/sac_plastique__c__damedias_-_Fotolia.com.jpg"
+      },
+        {"text": "Les sacs réutilisables ont une empreinte carbone beaucoup plus faible que les sacs plastiques jetables dès le départ, contribuant ainsi immédiatement à la lutte contre le réchauffement climatique.",
+          "img": "https://www.linenme.fr/sites/default/files/styles/product_catalog/public/products/10293.jpg?itok=0H2_5S92"
+        }
+      ],
+      "reponse": 0,
+      "description": ""
+    },
+    {"question": "Quel est l'impact environnemental des batteries de téléphone remplaçables par rapport aux batteries intégrées?",
+      "options": [
+        {
+          "text": "Les batteries intégrées sont plus écologiques car leur conception compacte et intégrée réduit la nécessité de ressources supplémentaires pour la fabrication de boîtiers et de connexions.",
+          "img": ""
+        },
+        {"text": "Les batteries de téléphone remplaçables ont tendance à être plus favorables à l'environnement à long terme, car elles permettent aux utilisateurs de remplacer uniquement la batterie défectueuse plutôt que l'ensemble du téléphone, réduisant ainsi la production de déchets électroniques.",
+          "img": ""
+        }
+      ],
+      "reponse": 1,
+      "description": ""
+    },
     {"question": "",
       "options": [
         {
-        "text": "",
-        "img": ""
-      },
+          "text": "",
+          "img": ""
+        },
         {"text": "",
           "img": ""
         }
       ],
-      "reponse": 0
+      "reponse": 0,
+      "description": ""
+    },
+    {"question": "",
+      "options": [
+        {
+          "text": "",
+          "img": ""
+        },
+        {"text": "",
+          "img": ""
+        }
+      ],
+      "reponse": 0,
+      "description": ""
+    },
+    {"question": "",
+      "options": [
+        {
+          "text": "",
+          "img": ""
+        },
+        {"text": "",
+          "img": ""
+        }
+      ],
+      "reponse": 0,
+      "description": ""
     }
   ]
 }
