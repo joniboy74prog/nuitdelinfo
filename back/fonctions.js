@@ -155,44 +155,7 @@ function getImg2(categorie, indice){
 
 // function for random index of a function 
 
-async function getQuestionByCategorie2(category) {
-    try {
-      const response = await fetch(`./${category}.json`);
-  
-      if (!response.ok) {
-        throw new Error(`Erreur de chargement du fichier JSON : ${response.status}`);
-      }
-  
-      const objetJson = await response.json();
-      const questions = objetJson.questions;
-  
-      console.log(questions);
-      return questions;
-  
-    } catch (error) {
-      console.error('Erreur lors du chargement du fichier JSON :', error.message);
-      alert('Erreur lors du chargement du fichier JSON. Consultez la console pour les détails.');
-      throw error; // Re-throw the error for further handling
-    }
-  }
-  
-  
-  console.log(getQuestionByCategorie2("transport"))
-  
-  function shuffleArray(array) {
-    const shuffledArray = [...array];
-    for (let i = shuffledArray.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
-    }
-    return shuffledArray;
-  }
-  
-  function createShuffledIndicesArray(array) {
-    const indicesArray = Array.from({ length: array.length }, (_, index) => index);
-    return shuffleArray(indicesArray);
-  }
-  
+
   function getNextIndex(indicesArray) {
     if (indicesArray.length === 0) {
       // Si tous les indices ont été utilisés, réinitialiser le tableau d'indices
