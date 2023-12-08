@@ -43,13 +43,39 @@
 
   <div class="container">
     <div class="choices">
+<<<<<<< HEAD
       <section id="left">
         <img class="image" id="imgleft" src="./img/imgleft.png" alt="imgleft">
       </section>
+||||||| 05f6282
+        <section id="left">
+            <img class="image" id="imgleft" src="./img/imgleft.png"
+                 alt="imgleft">
+        </section>
+=======
+        <section id="left">
+            <img class="image" id="imgleft" src="./img/imgleft.png"
+                 alt="imgleft">
+            <div class="text-overlay">Votre texte ici</div>
+        </section>
+>>>>>>> 0d68aaf3e621087d415377c9f42334f300c50e68
 
+<<<<<<< HEAD
       <section id="right">
         <img class="image" id="imgright" src="./img/imgright.webp" alt="imgright">
       </section>
+||||||| 05f6282
+        <section id="right">
+            <img class="image" id="imgright" src="./img/imgright.webp"
+                 alt="imgright">
+        </section>
+=======
+        <section id="right">
+            <img class="image" id="imgright" src="./img/imgright.webp"
+                 alt="imgright">
+            <div class="text-overlay">Votre texte ici</div>
+        </section>
+>>>>>>> 0d68aaf3e621087d415377c9f42334f300c50e68
     </div>
 
     <div class="question">
@@ -86,9 +112,15 @@
 
     let score = 20;
 
+<<<<<<< HEAD
     function augmenterCompteur() {
       score += 5;
+||||||| 05f6282
+      let score = 20;
+=======
+>>>>>>> 0d68aaf3e621087d415377c9f42334f300c50e68
 
+<<<<<<< HEAD
       if (score >= 5) {
         document.getElementById('star1').style.visibility = 'visible';
       }
@@ -97,6 +129,58 @@
       }
       if (score >= 15) {
         document.getElementById('star3').style.visibility = 'visible';
+||||||| 05f6282
+      function augmenterCompteur() {
+        score += 5;
+
+        if (score >= 5) {
+          document.getElementById('star1').style.visibility = 'visible';
+        }
+        if (score >= 10) {
+          document.getElementById('star2').style.visibility = 'visible';
+        }
+        if (score >= 15) {
+          document.getElementById('star3').style.visibility = 'visible';
+        }
+
+        if (score >= 20) {
+          document.getElementById('star4').style.visibility = 'visible';
+        }
+
+        if (score >= 25) {
+          document.getElementById('star5').style.visibility = 'visible';
+        }
+
+        if (score === 25) {
+          window.location.href = './easterEggEtoile.html';
+        }
+=======
+      let score = 0;
+      function augmenterCompteur() {
+        score++;
+
+        if (score >= 5) {
+          document.getElementById('star1').style.visibility = 'visible';
+        }
+        if (score >= 10) {
+          document.getElementById('star2').style.visibility = 'visible';
+        }
+        if (score >= 15) {
+          document.getElementById('star3').style.visibility = 'visible';
+        }
+
+        if (score >= 20) {
+          document.getElementById('star4').style.visibility = 'visible';
+        }
+
+        if (score >= 25) {
+          document.getElementById('star5').style.visibility = 'visible';
+        }
+
+        if (score === 25) {
+          window.location.href = './easterEggEtoile.html';
+        }
+>>>>>>> 0d68aaf3e621087d415377c9f42334f300c50e68
       }
 
       if (score >= 20) {
