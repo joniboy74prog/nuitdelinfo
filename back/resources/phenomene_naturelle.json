@@ -6,11 +6,11 @@
           "options": [
             {
               "text": "Impact significatif",
-              "img": "./img/Phenomenes/impactSignificatif.jpg"
+              "img": "./img/impactSignificatif.jpg"
             },
             {
               "text": "Aucun impact",
-              "img": "./img/Phenomenes/absenceImpact.jpg"
+              "img": "./img/absenceImpact.jpg"
             }
           ],
           "reponse": 0,
@@ -21,11 +21,11 @@
           "options": [
             {
               "text": "Contribuent à la perte de biodiversité",
-              "img": "./img/Phenomenes/inondations.jpg"
+              "img": "./img/inondations.jpg"
             },
             {
               "text": "Aucun impact sur la biodiversité",
-              "img": "./img/Phenomenes/absencePerteBiodiversite.jpg"
+              "img": "./img/absencePerteBiodiversite.jpg"
             }
           ],
           "reponse": 0,
@@ -36,11 +36,11 @@
           "options": [
             {
               "text": "Émissions de gaz à effet de serre",
-              "img": "./img/Phenomenes/incendiesForet.jpg"
+              "img": "./img/incendiesForet.jpg"
             },
             {
               "text": "Érosion des sols",
-              "img": "./img/PhenomenesNaturels/erosionSols.jpg"
+              "img": "./img/erosionSols.jpg"
             }
           ],
           "reponse": 0,
@@ -51,11 +51,11 @@
           "options": [
             {
               "text": "Dommages écologiques",
-              "img": "./img/PhenomenesNaturels/avalanches.jpg"
+              "img": "./img/avalanches.jpg"
             },
             {
               "text": "Mesures de conservation",
-              "img": "./img/PhenomenesNaturels/mesuresConservation.jpg"
+              "img": "./img/mesuresConservation.jpg"
             }
           ],
           "reponse": 0,
@@ -66,11 +66,11 @@
           "options": [
             {
               "text": "Provoquent du stress sur les écosystèmes",
-              "img": "./img/Phenomenes/vaguesChaleur.jpg"
+              "img": "./img/vaguesChaleur.jpg"
             },
             {
               "text": "Aucun effet sur les écosystèmes",
-              "img": "./img/Phenomenes/absenceEffetEcosysteme.jpg"
+              "img": "./img/absenceEffetEcosysteme.jpg"
             }
           ],
           "reponse": 0,

@@ -7,12 +7,12 @@
         "options": [
             {
                 "text": "Vrai",
-                "img": "./Habitat/"
+                "img": "./img/vrai.jpg"
             },
 
             {
                 "text": "Faux",
-                "img": "./Habitat/"
+                "img": "./img/faux.jpg"
             }
         ],
 
@@ -26,12 +26,12 @@
         "options": [
             {
                 "text": "Prendre une douche de 20 minutes",
-                "img": "./Habitat/douche.jpg"
+                "img": "./img/douche.jpg"
             },
 
             {
                 "text": "Prendre un bain",
-                "img": "./Habitat/bain.jpg"
+                "img": "./img/bain.jpg"
             }
         ],
 
@@ -45,12 +45,12 @@
         "options": [
             {
                 "text": "Vrai",
-                "img": "./img/Habitat/"
+                "img": "./img/vrai.jpg"
             },
 
             {
                 "text": "Faux",
-                "img": "./img/Habitat/"
+                "img": "./img/faux.jpg"
             }
         ],
 
@@ -64,12 +64,12 @@
         "options": [
             {
                 "text": "En lavant à la main",
-                "img": "./img/Habitat/laver_vaisselle_alamain.jpg"
+                "img": "./img/laver_vaisselle_alamain.jpg"
             },
 
             {
                 "text": "En utilisant un lave-vaisselle",
-                "img": "./img/Habitat/lavevaisselle.jpg"
+                "img": "./img/lavevaisselle.jpg"
             }
         ],
 
@@ -83,12 +83,12 @@
         "options": [
             {
                 "text": "Oui",
-                "img": "./img/Habitat/chauffageelectrique.jpg"
+                "img": "./img/chauffageelectrique.jpg"
             },
 
             {
                 "text": "Non",
-                "img": "./img/Habitat/chauffagebois.jpg"
+                "img": "./img/chauffagebois.jpg"
             }
         ],
 

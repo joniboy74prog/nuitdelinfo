@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mon site ecolo | Jeu </title>
+  <script src="../back/fonctions.js"></script>
   <link rel="icon" href="img/logo.svg" type="image/svg">
   <link rel="stylesheet" href="style/init.css">
   <link rel="stylesheet" href="style/navbarVertical.css">
@@ -42,94 +43,69 @@
   </div>
 
   <div class="container">
-    <div class="choices">
-<<<<<<< HEAD
-      <section id="left">
-        <img class="image" id="imgleft" src="./img/imgleft.png" alt="imgleft">
-      </section>
-||||||| 05f6282
+        <div class="choices">
         <section id="left">
             <img class="image" id="imgleft" src="./img/imgleft.png"
                  alt="imgleft">
+            <div id='lefttext' class="text-overlay"></div>
         </section>
-=======
-        <section id="left">
-            <img class="image" id="imgleft" src="./img/imgleft.png"
-                 alt="imgleft">
-            <div class="text-overlay">Votre texte ici</div>
-        </section>
->>>>>>> 0d68aaf3e621087d415377c9f42334f300c50e68
 
-<<<<<<< HEAD
-      <section id="right">
-        <img class="image" id="imgright" src="./img/imgright.webp" alt="imgright">
-      </section>
-||||||| 05f6282
         <section id="right">
             <img class="image" id="imgright" src="./img/imgright.webp"
                  alt="imgright">
+            <div id='righttext' class="text-overlay">Votre texte ici</div>
         </section>
-=======
-        <section id="right">
-            <img class="image" id="imgright" src="./img/imgright.webp"
-                 alt="imgright">
-            <div class="text-overlay">Votre texte ici</div>
-        </section>
->>>>>>> 0d68aaf3e621087d415377c9f42334f300c50e68
     </div>
+
 
     <div class="question">
-      <h2>Question</h2>
-      <p>Lorem ipsum</p>
-      <button class="hide">Question suivante</button>
+      <h2 id="qtype">Question</h2>
+      <p id="qid">Lorem ipsum</p>
+      <button class="hide" onclick="next()">Question suivante</button>
     </div>
 
-  </div>
-  <script>
-    const rightSection = document.getElementById('right');
-    const leftSection = document.getElementById('left');
-    const buttonElement = document.querySelector('button');
 
-    rightSection.addEventListener('click', () => {
-      rightSection.classList.remove('hide');
-      leftSection.classList.add('hide');
-      buttonElement.classList.remove('hide');
-    });
+    <script>
+      const rightSection = document.getElementById('right');
+      const leftSection = document.getElementById('left');
+      const buttonElement = document.querySelector('button');
+      let questioncount = 0;
+      
+      let categories = ["Transport","Habitat","Commerce","phenomene_naturelle","sources_energetiques"];
+      let catcursor = 0;
 
-    leftSection.addEventListener('click', () => {
-      leftSection.classList.remove('hide');
-      rightSection.classList.add('hide');
-      buttonElement.classList.remove('hide');
-    });
+      rightSection.addEventListener('click', () => {
+        rightSection.classList.remove('hide');
+        leftSection.classList.add('hide');
+        buttonElement.classList.remove('hide');
+        document.getElementById('qid').innerHTML = getDescription(categories[catcursor],questioncount);
+        document.getElementById('qtype').innerHTML = getVrai(categories[catcursor],questioncount,1);
+      });
 
-    buttonElement.addEventListener('click', () => {
-      augmenterCompteur();
-      buttonElement.classList.add('hide');
+      leftSection.addEventListener('click', () => {
+        leftSection.classList.remove('hide');
+        rightSection.classList.add('hide');
+        buttonElement.classList.remove('hide');
+        document.getElementById('qid').innerHTML = getDescription(categories[catcursor],questioncount,0);
+        document.getElementById('qtype').innerHTML = getVrai(categories[catcursor],questioncount,0);
+      });
 
-      rightSection.classList.remove('hide');
-      leftSection.classList.remove('hide');
-    });
+      buttonElement.addEventListener('click', () => {
+        augmenterCompteur();
+        buttonElement.classList.add('hide');
 
-    let score = 20;
+        rightSection.classList.remove('hide');
+        leftSection.classList.remove('hide');
+        document.getElementById('imgleft').src = getImg1(categories[catcursor],questioncount);
+        document.getElementById('imgright').src = getImg2(categories[catcursor],questioncount);
+        document.getElementById('qid').innerHTML = getTitre(categories[catcursor],questioncount);
+        document.getElementById('lefttext').innerHTML = getRep1(categories[catcursor],questioncount);
+        document.getElementById('righttext').innerHTML = getRep2(categories[catcursor],questioncount);
+        document.getElementById('qtype').innerHTML = "Question";
+      });
 
-<<<<<<< HEAD
-    function augmenterCompteur() {
-      score += 5;
-||||||| 05f6282
-      let score = 20;
-=======
->>>>>>> 0d68aaf3e621087d415377c9f42334f300c50e68
+      let score = 0;
 
-<<<<<<< HEAD
-      if (score >= 5) {
-        document.getElementById('star1').style.visibility = 'visible';
-      }
-      if (score >= 10) {
-        document.getElementById('star2').style.visibility = 'visible';
-      }
-      if (score >= 15) {
-        document.getElementById('star3').style.visibility = 'visible';
-||||||| 05f6282
       function augmenterCompteur() {
         score += 5;
 
@@ -154,50 +130,42 @@
         if (score === 25) {
           window.location.href = './easterEggEtoile.html';
         }
-=======
-      let score = 0;
-      function augmenterCompteur() {
-        score++;
-
-        if (score >= 5) {
-          document.getElementById('star1').style.visibility = 'visible';
-        }
-        if (score >= 10) {
-          document.getElementById('star2').style.visibility = 'visible';
-        }
-        if (score >= 15) {
-          document.getElementById('star3').style.visibility = 'visible';
-        }
-
-        if (score >= 20) {
-          document.getElementById('star4').style.visibility = 'visible';
-        }
-
-        if (score >= 25) {
-          document.getElementById('star5').style.visibility = 'visible';
-        }
-
-        if (score === 25) {
-          window.location.href = './easterEggEtoile.html';
-        }
->>>>>>> 0d68aaf3e621087d415377c9f42334f300c50e68
       }
 
-      if (score >= 20) {
-        document.getElementById('star4').style.visibility = 'visible';
+      document.addEventListener('DOMContentLoaded', function () {
+        
+        document.getElementById('imgleft').src = getImg1(categories[catcursor],questioncount);
+        document.getElementById('imgright').src = getImg2(categories[catcursor],questioncount);
+        document.getElementById('qid').innerHTML = getTitre(categories[catcursor],questioncount);
+        document.getElementById('lefttext').innerHTML = getRep1(categories[catcursor],questioncount);
+        document.getElementById('righttext').innerHTML = getRep2(categories[catcursor],questioncount);
+        
+        /*const tableauIndex = [0, 1, 2, 3, 4];
+        index = getIndex(tableauIndex);
+        const indice =  getIndex('Transport');
+        getCategoryQuestion("Transport", indice); // Assuming you want the first question*/
+        
+      });
+
+      function next(){
+        if(questioncount >4){
+          questioncount = 0;
+          catcursor++;
+          
+        }else{
+          questioncount++;
+
+        }
+
+        if(catcursor > 4){
+          catcursor = 0;
+        }
       }
 
-      if (score >= 25) {
-        document.getElementById('star5').style.visibility = 'visible';
-      }
 
-      if (score === 25) {
-        window.location.href = './easterEggEtoile.html';
-      }
-    }
-  </script>
+    </script>
 
-
+  </div>
 </body>
 
 

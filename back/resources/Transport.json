@@ -6,11 +6,11 @@
         "options": [
           {
             "text": "Voiture individuelle",
-            "img": "./img/Transport/voiture.jpg"
+            "img": "./img/voiture.jpg"
           },
           {
             "text": "Avion",
-            "img": "./img/Transport/avion.jpg"
+            "img": "./img/avion.jpg"
           }
         ],
         "reponse": 1,
@@ -21,11 +21,11 @@
         "options": [
           {
             "text": "Vrai",
-            "img": "./img/Transport/faibleEmissionGaz.jpg"
+            "img": "./img/faibleEmissionGaz.jpg"
           },
           {
             "text": "Faux",
-            "img": "./img/Transport/forteEmissionGaz.jpg"
+            "img": "./img/forteEmissionGaz.jpg"
           }
         ],
         "reponse": 0,
@@ -37,11 +37,11 @@
         "options": [
           {
             "text":"Par des incitations fiscales",
-            "img":"./img/Transport/incitation_fiscale.jpg"
+            "img":"./img/incitation_fiscale.jpg"
           },
           {
             "text":"Par des limitations de circulation pour les véhicules à essence",
-            "img": "./img/Transport/vehiculeEssence.jpg"
+            "img": "./img/vehiculeEssence.jpg"
           }
         ],
         "reponse":0,
@@ -52,11 +52,11 @@
         "options": [
           {
             "text": "Paris",
-            "img": "paris.jpg"
+            "img": "./img/paris.jpg"
           },
           {
             "text": "Lyon",
-            "img": "lyon.jpg"
+            "img": "./img/lyon.jpg"
           }
         ],
         "reponse": 0,
@@ -67,11 +67,11 @@
         "options": [
           {
             "text": "Vrai",
-            "img": "vrai.jpg"
+            "img": "./img/vrai.jpg"
           },
           {
             "text": "Faux",
-            "img": "faux.jpg"
+            "img": "./img/faux.jpg"
           }
         ],
         "reponse": 0,

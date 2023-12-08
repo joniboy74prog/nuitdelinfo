@@ -6,11 +6,11 @@
       "options": [
         {
           "text": "L'énergie nucléaire est plus néfaste pour l'environnement que les énergies fossiles, car elle génère des déchets radioactifs dangereux et pose des risques significatifs en cas d'accidents nucléaires, comme l'a montré l'accident de Tchernobyl.",
-          "img": "./img/energies/chernobyl_et_tout.jpg"
+          "img": "./img/chernobyl_et_tout.jpg"
       },
         {
           "text": "L'énergie nucléaire produit une quantité d'énergie considérable tout en émettant très peu de gaz à effet de serre, réduisant ainsi son impact sur le changement climatique par rapport aux énergies fossiles comme le charbon et le pétrole.",
-          "img": "./img/energies/nucleaire_cool.jpg"
+          "img": "./img/nucleaire_cool.jpg"
         }
       ],
       "reponse": 1,
@@ -21,11 +21,11 @@
       "options": [
         {
           "text": "Les panneaux solaires ont une efficacité croissante et peuvent atteindre jusqu'à 20-25%, ce qui en fait une source d'énergie renouvelable de plus en plus compétitive par rapport aux sources traditionnelles telles que le charbon ou le gaz.",
-          "img": "./img/energies/panneaux_solaires_cool.jpg"
+          "img": "./img/panneaux_solaires_cool.jpg"
         },
         {
           "text": "Les panneaux solaires sont moins efficaces que d'autres sources d'énergie, car leur rendement est limité et dépend fortement des conditions météorologiques. En outre, la production des panneaux solaires génère des déchets toxiques qui affectent l'environnement.",
-          "img": "./img/energies/panneaux_solaires_bof.jpg"
+          "img": "./img/panneaux_solaires_bof.jpg"
         }
       ],
       "reponse": 0,
@@ -36,11 +36,11 @@
       "options": [
         {
           "text": "Les éoliennes ne présentent aucun danger pour l'environnement ou la santé humaine. Les préoccupations concernant les impacts sur la faune sont souvent exagérées, et les avantages en termes d'énergie renouvelable surpassent largement les inconvénients potentiels.",
-          "img": "./img/energies/eolienne_bien.jpg"
+          "img": "./img/eolienne_bien.jpg"
         },
         {
           "text": "Certains des dangers potentiels des éoliennes comprennent le risque de collisions d'oiseaux et de chauves-souris avec les pales, ainsi que des préoccupations liées à la modification du paysage visuel dans certaines zones. Des études sont en cours pour évaluer ces impacts.",
-          "img": "./img/energies/eolienne_mal.jpg"
+          "img": "./img/eolienne_mal.jpg"
         }
       ],
       "reponse": 1,
@@ -51,11 +51,11 @@
       "options": [
         {
           "text": "Environ 8% des besoins énergétiques mondiaux sont actuellement couverts par des sources d'énergie renouvelable, indiquant un progrès plus lent que prévu dans la transition vers ces sources d'énergie.",
-          "img": ".img/energies/photo_basique_transition_energetique.jpg"
+          "img": "./img/photo_basique_transition_energetique.jpg"
         },
         {
           "text": "Environ 26% des besoins énergétiques mondiaux sont actuellement couverts par des sources d'énergie renouvelable, montrant une tendance à la hausse au fil des années.",
-          "img": ".img/energies/photo_basique_transition_energetique2.jpg"
+          "img": "./img/photo_basique_transition_energetique2.jpg"
         }
       ],
       "reponse": 1,
@@ -66,11 +66,11 @@
       "options": [
         {
           "text": "Vrai",
-          "img": "./img/energies/image_de_gaz_naturel.jpg"
+          "img": "./img/image_de_gaz_naturel.jpg"
         },
         {
           "text": "Faux",
-          "img": "./img/energies/extraction_petrole.jpg"
+          "img": "./img/extraction_petrole.jpg"
         }
       ],
       "reponse": 1,
