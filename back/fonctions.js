@@ -156,8 +156,19 @@ function getImg2(categorie, indice){
 // function for random index of a function 
 
 
- function getIndex(){
-
+ function getIndex(tableauDentiers){
+    if (tableauDentiers.length == 0){
+        return -1;
+    }
+     const indiceAleatoire = Math.floor(Math.random() * tableauDentiers.length);
+     tableauDentiers.splice(indiceAleatoire, 1);
+     console.log(tableauDentiers); // Affiche : [1, 2, 4, 5]
+     return indiceAleatoire;
  }
+ document.addEventListener('DOMContentLoaded', ()=>
+     {
+         const tableauDentiers = [1, 2, 3, 4, 5];
+     }
+ )
   
 
