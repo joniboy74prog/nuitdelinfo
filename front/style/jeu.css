@@ -51,25 +51,6 @@ section {
     z-index: 1;
 }
 
-.expanded {
-    position: absolute;
-!important;
-    top: 0;
-!important;
-    left: 0;
-!important;
-    width: 100%;
-!important;
-}
-
-/*#imgleft.expanded {*/
-/*    margin-right: -100vw;*/
-/*}*/
-
-/*#imgright.expanded {*/
-/*    margin-left: -100vw;*/
-/*}*/
-
 .image {
     object-fit: cover;
 }
@@ -85,12 +66,10 @@ section a {
 
 #left {
     background-color: blue;
-    /*background-image: url('');*/
 }
 
 #right {
     background-color: red;
-    /*background-image: url('');*/
 }
 
 .text-overlay {
