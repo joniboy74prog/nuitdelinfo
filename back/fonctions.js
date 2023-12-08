@@ -156,22 +156,8 @@ function getImg2(categorie, indice){
 // function for random index of a function 
 
 
-  function getNextIndex(indicesArray) {
-    if (indicesArray.length === 0) {
-      // Si tous les indices ont été utilisés, réinitialiser le tableau d'indices
-      return null;  // ou une autre valeur pour indiquer que tous les indices ont été utilisés
-    }
-    return indicesArray.shift();
-  }
-  
-  const votreTableau = await getQuestionByCategorie2('transport');
-  const shuffledIndices = createShuffledIndicesArray(votreTableau);
-  
-  // À chaque appel, récupérez le prochain indice
-  const premierIndice = getNextIndex(shuffledIndices);
-  const deuxiemeIndice = getNextIndex(shuffledIndices);
-  
-  console.log(premierIndice);  // Indice aléatoire
-  console.log(deuxiemeIndice);  // Indice différent
+ function getIndex(){
+
+ }
   
 
