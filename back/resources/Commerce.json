@@ -8,7 +8,7 @@
         "img": "./img/Commerce/sac_lin.jpg"
       },
         {"text": "Les sacs réutilisables ont une empreinte carbone beaucoup plus faible que les sacs plastiques jetables dès le départ, contribuant ainsi immédiatement à la lutte contre le réchauffement climatique.",
-          "img": "./img/Commerce/sac_plastique.jpg"
+          "img": "./img/Commerce/sac_plastique.jpg"   
         }
       ],
       "reponse": 0,
