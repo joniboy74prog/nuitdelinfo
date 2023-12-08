@@ -17,7 +17,7 @@
         "description":"Les voitures individuelles, en particulier celles qui fonctionnent aux carburants fossiles, ont souvent une consommation élevée de carburant par kilomètre parcouru, ce qui contribue aux émissions de gaz à effet de serre."
       },
       {
-        "text": "Le réseau de trains à grande vitesse (TGV) en France est-il souvent salué pour ses faibles émissions de gaz à effet de serre, principalement grâce à l'utilisation d'énergies renouvelables pour son fonctionnement ?",
+        "question": "Le réseau de trains à grande vitesse (TGV) en France est-il souvent salué pour ses faibles émissions de gaz à effet de serre, principalement grâce à l'utilisation d'énergies renouvelables pour son fonctionnement ?",
         "options": [
           {
             "text": "Vrai",
@@ -33,7 +33,7 @@
       },
       
       {
-        "text": "Comment la France encourage-t-elle l'adoption de véhicules électriques?",
+        "question": "Comment la France encourage-t-elle l'adoption de véhicules électriques?",
         "options": [
           {
             "text":"Par des incitations fiscales",
@@ -48,7 +48,7 @@
         "description":" le gouvernement français offre des avantages fiscaux, tels que des réductions d'impôts ou des crédits d'impôt, pour inciter les citoyens à opter pour des véhicules électriques. Ces incitations fiscales visent à stimuler le marché des véhicules électriques en rendant ces alternatives plus attrayantes sur le plan financier, contribuant ainsi à réduire les émissions de gaz à effet de serre liées au secteur des transports."
       },
       {
-        "text": "Quelle ville française a mis en œuvre un système de location de vélos très populaire pour promouvoir des modes de transport plus durables?",
+        "question": "Quelle ville française a mis en œuvre un système de location de vélos très populaire pour promouvoir des modes de transport plus durables?",
         "options": [
           {
             "text": "Paris",
@@ -60,10 +60,10 @@
           }
         ],
         "reponse": 0,
-        "description":"Paris a mis en place un système de location de vélos, connu sous le nom de "Vélib'", pour encourager des modes de transport durables. Cette initiative vise à réduire la dépendance aux véhicules individuels motorisés."
+        "description":"Paris a mis en place un système de location de vélos, connu sous le nom de velib, pour encourager des modes de transport durables. Cette initiative vise à réduire la dépendance aux véhicules individuels motorisés."
       },
       {
-        "text": "Le réseau de trains à grande vitesse (TGV) en France utilise-t-il principalement des énergies renouvelables, ce qui contribue à des émissions de gaz à effet de serre plus faibles ?",
+        "question": "Le réseau de trains à grande vitesse (TGV) en France utilise-t-il principalement des énergies renouvelables, ce qui contribue à des émissions de gaz à effet de serre plus faibles ?",
         "options": [
           {
             "text": "Vrai",

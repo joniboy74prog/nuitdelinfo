@@ -157,7 +157,7 @@ function getImg2(categorie, indice){
 
 async function getQuestionByCategorie2(category) {
     try {
-      const response = await fetch(`./${category}.json`);
+      const response = await fetch(`./resources/${category}.json`);
   
       if (!response.ok) {
         throw new Error(`Erreur de chargement du fichier JSON : ${response.status}`);
@@ -201,14 +201,23 @@ async function getQuestionByCategorie2(category) {
     return indicesArray.shift();
   }
   
-  const votreTableau = await getQuestionByCategorie2('transport');
-  const shuffledIndices = createShuffledIndicesArray(votreTableau);
+//   const votreTableau = await getQuestionByCategorie2('transport');
+//   const shuffledIndices = createShuffledIndicesArray(votreTableau);
   
-  // À chaque appel, récupérez le prochain indice
-  const premierIndice = getNextIndex(shuffledIndices);
+  async function main() {
+    // Faites quelque chose avec votreTableau
+    const votreTableau = await getQuestionByCategorie2('Transport');
+    const shuffledIndices = createShuffledIndicesArray(votreTableau);
+    const premierIndice = getNextIndex(shuffledIndices);
   const deuxiemeIndice = getNextIndex(shuffledIndices);
   
   console.log(premierIndice);  // Indice aléatoire
-  console.log(deuxiemeIndice);  // Indice différent
+  console.log(deuxiemeIndice);
+  }
+  
+  main();
+
+  // À chaque appel, récupérez le prochain indice
+    // Indice différent
   
 
