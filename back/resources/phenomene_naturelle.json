@@ -6,11 +6,11 @@
           "options": [
             {
               "text": "Impact significatif",
-              "img": "./img/PhenomenesNaturels/impactSignificatif.jpg"
+              "img": "./img/Phenomenes/impactSignificatif.jpg"
             },
             {
               "text": "Aucun impact",
-              "img": "./img/PhenomenesNaturels/absenceImpact.jpg"
+              "img": "./img/Phenomenes/absenceImpact.jpg"
             }
           ],
           "reponse": 0,
@@ -21,11 +21,11 @@
           "options": [
             {
               "text": "Contribuent à la perte de biodiversité",
-              "img": "./img/PhenomenesNaturels/inondations.jpg"
+              "img": "./img/Phenomenes/inondations.jpg"
             },
             {
               "text": "Aucun impact sur la biodiversité",
-              "img": "./img/PhenomenesNaturels/absencePerteBiodiversite.jpg"
+              "img": "./img/Phenomenes/absencePerteBiodiversite.jpg"
             }
           ],
           "reponse": 0,
@@ -36,7 +36,7 @@
           "options": [
             {
               "text": "Émissions de gaz à effet de serre",
-              "img": "./img/PhenomenesNaturels/incendiesForet.jpg"
+              "img": "./img/Phenomenes/incendiesForet.jpg"
             },
             {
               "text": "Érosion des sols",
@@ -66,11 +66,11 @@
           "options": [
             {
               "text": "Provoquent du stress sur les écosystèmes",
-              "img": "./img/PhenomenesNaturels/vaguesChaleur.jpg"
+              "img": "./img/Phenomenes/vaguesChaleur.jpg"
             },
             {
               "text": "Aucun effet sur les écosystèmes",
-              "img": "./img/PhenomenesNaturels/absenceEffetEcosysteme.jpg"
+              "img": "./img/Phenomenes/absenceEffetEcosysteme.jpg"
             }
           ],
           "reponse": 0,
