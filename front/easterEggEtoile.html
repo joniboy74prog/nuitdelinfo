@@ -17,20 +17,55 @@
         }
 
         h1 {
-            font-family: 'Manrope', extrabold;
+            font-family: 'Manrope', sans-serif;
+            font-weight: 400;
             font-size: 64px;
-            color: white;
-            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            color: #0E3B43;
         }
 
         p {
-            font-size: 18px;
-            margin-bottom: 30px;
+            font-family: 'Manrope', sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+            color: #0E3B43;
         }
 
         #santa {
             font-size: 72px;
             cursor: pointer;
+            color: darkred;
+        }
+
+        .arrow-container {
+            display: flex;
+        }
+
+        .arrow_right {
+            font-size: 36px;
+            animation: swing_arrow_right 1s infinite alternate;
+        }
+
+        .arrow_left {
+            font-size: 36px;
+            animation: swing_arrow_left 1s infinite alternate;
+        }
+
+        @keyframes swing_arrow_right {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(10px);
+            }
+        }
+
+        @keyframes swing_arrow_left {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-10px);
+            }
         }
     </style>
 </head>
@@ -40,10 +75,13 @@
 <p>En cette période festive, pensons à la nature et à la durabilité.</p>
 <p>Faites un geste écologique pendant les fêtes ! 🌲</p>
 
-<div id="santa" onclick="showEasterEgg()">→ 🎅 ←</div>
-
+<div class="arrow-container">
+    <p class="arrow_right">→</p>
+    <div id="santa" onclick="showEasterEgg()">🎅</div>
+    <p class="arrow_left">←</p>
+</div>
 <script>
-  function showEasterEgg() {
+  const showEasterEgg = () => {
     alert("Easter Egg : C'est le moment de penser à des cadeaux éco-friendly !");
   }
 </script>

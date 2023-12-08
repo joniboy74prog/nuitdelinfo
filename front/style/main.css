@@ -17,7 +17,8 @@ main {
 }
 
 h1 {
-    font-family: 'Manrope', extrabold;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
     font-size: 64px;
     color: white;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -25,14 +26,16 @@ h1 {
 }
 
 h2 {
-    font-family: 'Manrope', extrabold;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
     font-size: 48px;
     color: white;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #sous-pres {
-    font-family: 'Manrope', bold;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
     font-size: 20px;
     color: white;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -45,7 +48,7 @@ h2 {
     height: 59px;
     padding: 10px 20px;
     margin-top: 90px;
-    font-family: 'Manrope', bold;
+    font-family: 'Manrope', sans-serif;
     font-size: 20px;
     border: none;
     border-radius: 10px;

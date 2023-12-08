@@ -45,11 +45,13 @@
         <section id="left">
             <img class="image" id="imgleft" src="./img/imgleft.png"
                  alt="imgleft">
+            <div class="text-overlay">Votre texte ici</div>
         </section>
 
         <section id="right">
             <img class="image" id="imgright" src="./img/imgright.webp"
                  alt="imgright">
+            <div class="text-overlay">Votre texte ici</div>
         </section>
     </div>
 
@@ -85,10 +87,10 @@
         leftSection.classList.remove('hide');
       });
 
-      let score = 20;
 
+      let score = 0;
       function augmenterCompteur() {
-        score += 5;
+        score++;
 
         if (score >= 5) {
           document.getElementById('star1').style.visibility = 'visible';
