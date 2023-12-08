@@ -37,6 +37,6 @@ document.addEventListener('keydown', function(e) {
 });
 
 const activateCheats = () => {
-  alert('cheats activated');
-  // TODO redirect to easter egg page
+  console.log("XD");
+  window.location.href = 'ggr.html';
 };
